@@ -19,6 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $image = $_POST['file'];
     $status = $_POST['status'];
     $appliance_name = $_POST['appliance_name'];
+    $domain = $_SERVER['HTTP_HOST'];
     $quantity = 1;
     if (!empty($_POST['quantity'])) {
         $quantity = $_POST['quantity'];
@@ -69,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                   <tbody>
                   <tr>
                   <td style="background:#0398fc; padding:20px; color:#fff; text-align:center;"> 
-                  <img src="http://appliancematters.ca/images/logo/logo.png" style="border:none; height:60%" >
+                  <img src="http://' . $domain . '/images/logo/logo.png" style="border:none; height:60%" >
                   </td>
                   </tr>
                   </tbody>
@@ -100,8 +101,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if ($image != '') {
                 $body .= '<hr>
           <small>Click the image to view</small> <br>
-          <a href="http://appliance-matters.joselin-portfolio.tk/images/upload/' . $image . '">
-          <img src="http://appliance-matters.joselin-portfolio.tk/images/upload/' . $image . '" width="100"></a>';
+          <a href="http://' . $domain . '/images/upload/' . $image . '">
+          <img src="http://' . $domain . '/images/upload/' . $image . '" width="100"></a>';
             }
             $body .= '</div>
                   </div>
