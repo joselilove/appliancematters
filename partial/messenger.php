@@ -4,7 +4,7 @@
     window.fbAsyncInit = function() {
         FB.init({
             xfbml: true,
-            version: 'v5.0'
+            version: 'v9.0'
         });
     };
 
@@ -18,6 +18,6 @@
     }(document, 'script', 'facebook-jssdk'));
 </script>
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat" attribution=setup_tool page_id="101859438041636" theme_color="#fa3c4c">
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat" attribution=setup_tool page_id="100843921477785" theme_color="#fa3c4c">
 </div>

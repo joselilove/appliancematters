@@ -1,2 +1,3 @@
-db/connect.php
-.htaccess
+/db/connect.php
+#.htaccess
+/mail/vendor/*

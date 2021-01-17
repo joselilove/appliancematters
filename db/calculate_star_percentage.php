@@ -51,7 +51,7 @@ function getTotalStar($ratingData)
 {
     $total = 0;
     for ($i = 0; $i < count($ratingData); $i++) {
-        $total ++;
+        $total++;
     }
     return $total;
 }
@@ -61,7 +61,7 @@ function getTotalPerStar($ratingData, $star)
     $total = 0;
     for ($i = 0; $i < count($ratingData); $i++) {
         if ($ratingData[$i] == $star) {
-            $total ++;
+            $total++;
         }
     }
     return $total;
