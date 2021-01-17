@@ -71,7 +71,7 @@
               Don't know what to do with your broken home appliances? We got your back. Get your home appliances repaired by our trusted and experienced experts.
             </p>
           </blockquote>
-          <a class="btn btn-outline-danger" href="tel:587-894-6180"> <span class="icon-phone"></span> 587-894-6180</a>
+          <a class="btn btn-outline-danger" href="tel:587-894-6180"> <span class="icon-phone"></span> 111-111-1111</a>
           <a class="btn btn-outline-danger" href="#" data-toggle="modal" data-target="#upload"> <span class="icon-screen-smartphone"></span> Request Now!</a>
         </div>
       </div>
